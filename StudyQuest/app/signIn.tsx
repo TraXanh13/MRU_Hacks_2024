@@ -17,6 +17,8 @@ const signInStyle = StyleSheet.create( {
     },
     text: {
         color: 'red',
+        fontFamily: 'Pixel-Game',
+        fontSize: '8rem',
     },
 });
 
