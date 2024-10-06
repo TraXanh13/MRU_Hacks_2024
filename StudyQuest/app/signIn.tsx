@@ -1,4 +1,4 @@
-import {Text, View, StyleSheet} from 'react-native';
+import { Text, View, StyleSheet } from 'react-native';
 
 export default function SignInScreen() {
     return (
@@ -8,7 +8,7 @@ export default function SignInScreen() {
     )
 }
 
-const signInStyle = StyleSheet.create( {
+const signInStyle = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: 'grey',
@@ -18,7 +18,7 @@ const signInStyle = StyleSheet.create( {
     text: {
         color: 'red',
         fontFamily: 'Pixel-Game',
-        fontSize: '8rem',
+        fontSize: 200,
     },
 });
 
